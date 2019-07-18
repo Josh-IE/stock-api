@@ -18,7 +18,7 @@ The app was built and tested against:
 The app receives requests from the various endpoints and relays the request to a 3rd party securities api. The response from the 3rd party api is then parsed and returned as a json response to the original requesting client.
 In cases where the 3rd party api returns an error, the response is caught and reformatted to replace the 3rd party's branded error message and response structure with a custom response.
 
-The api app at exposes 3 endpoints.
+The api app at exposes 4 endpoints.
 
 ### /
 
@@ -83,7 +83,7 @@ The api app at exposes 3 endpoints.
 * clone repository
 
   ```git clone https://github.com/Josh-IE/stock-api.git```
-  
+
 * change into app directory
 
   ```cd stock-api```
